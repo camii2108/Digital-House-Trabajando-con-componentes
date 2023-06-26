@@ -4,7 +4,7 @@ import noPoster from '../assets/images/404.jpg';
 function SearchMovies(){
 	
 	const [keywords, setKeywords] = useState('');
-	const apiKey = 'afbf8d6a'; // Intenta poner cualquier cosa antes para probar
+	const apiKey = 'eeadbc1c'; 
 	const [movies, setMovies] = useState({
 		error: false,
 		data: []
